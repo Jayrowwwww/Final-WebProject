@@ -23,6 +23,13 @@ button{
     font-size: 20px;
 }
 
+button:active{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    font-weight: 500;
+}
+
 .landing-page{
     background-color: #C2D2DA;
     height: 100vh;
@@ -261,15 +268,17 @@ nav ul li a{
 .right{
     color: white;
     width: 50rem;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 /* footer */
 .foot{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     background-color: #dfdfdf;
+    height: 10vh;
 }
 
 .foot h1{
